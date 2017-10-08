@@ -60,10 +60,14 @@ h1{
 .ms{
   font-size: 40px;
 }
+
+.subcontain{
+  display: inline-flex;
+}
+
 .substory{
   display: block;
-  width: 50%;
-
+  width: 49%;
 }
 
 h3{
