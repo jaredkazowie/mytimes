@@ -123,3 +123,29 @@ img {
 .under{
       border-bottom: 1.5px solid black;
 }
+
+.footcontain{
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  background-color: MediumAquamarine;
+  justify-content: center;
+  height: 500px;
+  width: 1170px;
+}
+
+.foot{
+  display: inline-flex;
+}
+.foot li {
+  list-style: none;
+  display: inline-flex;
+}
+.foot li a{
+  color: black;
+  margin: auto;
+}
