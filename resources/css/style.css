@@ -85,6 +85,8 @@ img{
   flex-direction: column;
   justify-content: center;
   background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg')
+  width: 1200px;
+  margin: auto;
 }
 .lochead{
   display: block;
