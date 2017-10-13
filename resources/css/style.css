@@ -1,7 +1,7 @@
 body{
-  background-color: grey;
+  background-color: black;
   font-family: helvetica;
-  color: red;
+  color: seashell;
   opacity: 0.9;
 }
 
@@ -14,8 +14,7 @@ body{
   align-items: center;
   margin: 10px;
   height: 50px;
-  /*you can take out the background color here once body is black*/
-  background-color: black;
+
 }
 
 .header li {
@@ -81,10 +80,13 @@ img{
   display: flex;
   height: 500px;
   text-align: center;
+  flex-direction: column;
+  justify-content: center;
   background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg')
-
 }
-/*why the containter stretching to fit the loc containter*/
+.lochead{
+  display: block;
+}
 .locbox{
   display: flex;
   justify-content: center;
