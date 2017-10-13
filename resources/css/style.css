@@ -14,7 +14,7 @@ body{
   align-items: center;
   margin: 10px;
   height: 50px;
-
+  background-color: black;
 }
 
 .header li {
@@ -45,6 +45,8 @@ h1{ /*whi do i need this in here? i have to keep  aspace in html for things to a
   align-items: center;
   justify-content: center;
   text-align: center;
+  width: 1200px;
+  margin: auto;
 }
 .stripe{
   background-color: black;
