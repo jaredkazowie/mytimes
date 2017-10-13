@@ -17,6 +17,7 @@ body{
   height: 50px;
   background-color: black;
   position: fixed;
+  padding-bottom: 5px;
 }
 
 .header li {
