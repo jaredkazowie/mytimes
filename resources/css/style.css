@@ -1,5 +1,8 @@
 body{
   background-color: grey;
+  font-family: helvetica;
+  color: red;
+  opacity: 0.9;
 }
 
 /*header CSS should be independent of the rest*/
@@ -21,14 +24,13 @@ body{
 
 }
 .header li a{
-  color: white;
+  color: seashell;
   justify-content: flex-end;
   padding-right: 20px;
 
 }
-img {
-    max-width: 100%;
-    max-height: 100%;
+#logo{
+  height: 50px;
 }
 
 
@@ -37,19 +39,68 @@ h1{ /*whi do i need this in here? i have to keep  aspace in html for things to a
 }
 
 .mission{
-  background-color:red;
+/*  background image needs centered;*/
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
   height: 700px;
-  color: white;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-grow: 1;
+  text-align: center;
 }
 .stripe{
   background-color: black;
-  align-content: center;
+  flex-grow: 1;
+}
 
+
+/*set image constraints*/
+img{
+  height: 200px;
+  width: 300px;
+}
+
+.tom{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+.tom2{
+  display: flex;
+  justify-content: center;
+}
+.tomcontain{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.loc{
+  display: flex;
+  height: 500px;
+  text-align: center;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg')
+
+}
+/*why the containter stretching to fit the loc containter*/
+.locbox{
+  display: flex;
+  justify-content: center;
+}
+.loccontain{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  width: 300px;
+  background-color: black;
+}
+.foot{
+  text-align: center;
+  background-color: black;
 }
 
 /*h2, h4{
